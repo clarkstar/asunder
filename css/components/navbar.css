@@ -1,0 +1,51 @@
+/* Main navbar */
+.navbar-asunder {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: white;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.navbar-asunder-brand img {
+  height: 50px;
+  padding-left: 80px;
+}
+
+.navbar-asunder-brand:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+/* User Avatar */
+.navbar-asunder .avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+/* Right section */
+.navbar-asunder-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Basic navbar item */
+.navbar-asunder-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.navbar-asunder-link {
+  color: #616668;
+  font-size: 14px;
+}
+.navbar-asunder-link:hover {
+  color: #7c7c7c;
+  text-decoration: none;
+}
