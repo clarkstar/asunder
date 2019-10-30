@@ -1,0 +1,58 @@
+.banner {
+  background: rgb(175, 175, 175);
+  height: 85vh;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-logo img {
+  height: 50px;
+}
+
+.banner-second {
+  background: rgb(251, 251, 251);
+  height: 75vh;
+  color: rgb(120, 120, 120);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+.banner p {
+  font-size: 20px;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.banner-content {
+
+}
+
+.banner-genre {
+  color: grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.banner-genre i {
+  color: grey;
+  padding: 15px;
+}
+
+.banner-genre i:hover {
+  color: rgb(93, 93, 93);
+  padding: 15px;
+}
